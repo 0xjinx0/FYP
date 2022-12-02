@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .home,
+  .charities,
+  .edu,
+  .edu2,
+  .connect-wallet {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+
+  .about-us {
+    background-image: url('/images/aboutus.png');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    height: 91.7vh;
+    align-items: center;
+  }
+
+  .about-us > h1 {
+    color:#FFD700;
+    text-align: center;
+    font-size: 100px;
+    position: absolute;
+    top: 15%;
+    width: 100%;
+  }
+
+  .about-us > p {
+    color:#fff;
+    text-align: center;
+    font-size: 35px;
+    position: absolute;
+    top: 19%;
+    left: 11%;
+    width: 1500px;
+    padding: 90px;
+  }
+
+  /*
+    .about-us > p2 {
+    color:#fff;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+  }
+
+  .about-us > p3 {
+    color:#fff;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+  }
+
+  .about-us > p4 {
+    color:#fff;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+  }
+
+  .about-us > p5 {
+    color:#fff;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+  }
+  */
+
+  .btns {
+    padding:8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    top: 62%;
+  }
+
+  .btns-container {
+    height: 91.7vh;
+    width: 69%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+  }
+
+  .btns-nft {
+    padding:8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    top: 90%;
+  }
+
+  .btns-container-nft {
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+  }
+
+  .btn--primary {
+      background-color: var(--primary);
+      color: #242424;
+      border: 1px solid var(--primary);
+  }
+
+  .btn--large {
+    padding: 12px 26px;
+    font-size: 20px;
+  }
+  
+  .edu {
+    background-image: url('/images/nftdarked.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+  }
+
+  .edu2 {
+    background-image: url('/images/connect-wallet1darked.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+  }
+
+  .edu > h1 {
+    color:#FFD700;
+    text-align: center;
+    font-size: 100px;
+    position: absolute;
+    top: 13%;
+    width: 100%;
+  }
+
+  .edu > p {
+    color:#FFFDD0;
+    text-align: center;
+    font-size: 35px;
+    position: absolute;
+    top: 30%;
+    left: 11%;
+    width: 1500px;
+    padding: 90px;
+  }
+
+  .edu > p2 {
+    color:#FFFDD0;
+    text-align: center;
+    font-size: 35px;
+    position: absolute;
+    top: 55%;
+    left: 11%;
+    width: 1500px;
+    padding: 90px;
+  }
+
+  .edu2 {
+    background-image: url('/images/connect-wallet1darked.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+  }
+
+  .edu2 > h1 {
+    color:#FFD700;
+    text-align: center;
+    font-size: 100px;
+    position: absolute;
+    top: 120%;
+    width: 100%;
+  }
+
+  .edu2 > p {
+    color:#FFFDD0;
+    text-align: center;
+    font-size: 35px;
+    position: absolute;
+    top: 125%;
+    left: 11%;
+    width: 1500px;
+    padding: 90px;
+  }
+
+  .video {
+    position: absolute;
+    top: 165%;
+  }
+
+  .charities {
+    background-image: url('/images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .connect-wallet {
+    background-image: url('/images/img-8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
