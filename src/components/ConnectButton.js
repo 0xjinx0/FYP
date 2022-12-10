@@ -28,7 +28,7 @@ export const Button = ({children, type, buttonStyle, buttonSize}) => {
             }
         } else {
             /*MetaMask is not installed*/
-            console.log("Please install MetaMask on your browser");
+            alert("Please install MetaMask on your browser");
         }
     };
 
@@ -47,7 +47,7 @@ export const Button = ({children, type, buttonStyle, buttonSize}) => {
             }
         } else {
             /*MetaMask is not installed*/
-            console.log("Please install MetaMask on your browser");
+            alert("Please install MetaMask on your browser");
         }
     };
 
@@ -60,7 +60,7 @@ export const Button = ({children, type, buttonStyle, buttonSize}) => {
         } else {
             /*MetaMask is not installed*/
             setWalletAddress("");
-            console.log("Please install MetaMask on your browser");
+            alert("Please install MetaMask on your browser");
         }
     };
 
