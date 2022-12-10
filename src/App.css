@@ -8,8 +8,7 @@
   .home,
   .charities,
   .edu,
-  .edu2,
-  .connect-wallet {
+  .edu2 {
     display: flex;
     height: 100vh;
     align-items: center;
@@ -215,15 +214,6 @@
 
   .charities {
     background-image: url('/images/img-2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .connect-wallet {
-    background-image: url('/images/img-8.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
