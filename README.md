@@ -5,7 +5,7 @@ With the objective to help improve the donation gathered by charitable organizat
 
 ## Important stuff to take note before deployment of the application!
 1. This prototype application is set to run on a fake local blockchain Truffle Ganache.
-2. Kindly install Truffle Ganache [here] (https://trufflesuite.com/ganache/)
+2. Kindly install Truffle Ganache [here](https://trufflesuite.com/ganache/)
 3. Ensure the Ganache is running when the application is deployed.
 
 ## Deploy with ease
