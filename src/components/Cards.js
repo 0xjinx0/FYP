@@ -24,7 +24,7 @@ function Cards() {
                     <CardItem 
                         src="images/etherscan.png"
                         text="Utilise the function that Etherscan provides to track transactions!"
-                        label="What is Etherscan"
+                        label="What is Etherscan?"
                         path="/edu#edu3"
                     />
                     <CardItem 
