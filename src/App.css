@@ -95,11 +95,11 @@
     cursor: pointer;
     font-size: 30px;
     position: absolute;
-    top: 265%;
+    top: 272%;
   }
 
   .btns-container-ether {
-    width: 58%;
+    width: 78%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -205,6 +205,17 @@
     font-size: 35px;
     position: absolute;
     top: 230%;
+    left: 11%;
+    width: 1500px;
+    padding: 90px;
+  }
+
+  .edu3 > p2 {
+    color:#FFFDD0;
+    text-align: center;
+    font-size: 35px;
+    position: absolute;
+    top: 250%;
     left: 11%;
     width: 1500px;
     padding: 90px;

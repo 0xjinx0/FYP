@@ -18,7 +18,7 @@ export default function Edu() {
             </div>
             <div className='btns-container-nft'>
                 <a href="https://www.youtube.com/watch?v=h4LA_9bMjpE" target="_blank" rel="noopener noreferrer">
-                    <button className='btns-nft' buttonStyle='btn--primary'     buttonSize='btn--large'>
+                    <button className='btns-nft' buttonStyle='btn--primary' buttonSize='btn--large'>
                         LEARN HOW NFTS COULD HELP CHARITIES IN THE LONG RUN
                     </button>
                 </a>
@@ -37,18 +37,15 @@ export default function Edu() {
                     What is Etherscan?
                 </h1>
                 <p>A block explorer for the Ethereum blockchain is called Etherscan. Users may quickly search for and view transactions and blocks thanks to it. Additionally, it offers details about each transaction and block, including the date and hash. Etherscan can be compared to Ethereum's equivalent of Google.</p>
-                <div className='btns-container-ether'>
-                    <a href="https://etherscan.io/" target="_blank" rel="noopener noreferrer">
-                        <button className='btns-ether' buttonStyle='btn--primary'     buttonSize='btn--large'>
-                           LINK TO ETHERSCAN WEBSITE
-                        </button>
-                    </a>
-                </div>
+                <p2>Users can just copy any of the wallet address and lookup on Ethersacn to see the transcations that has been done in past which are stored on the Ethereum blockchain</p2>
             </div>
-            
-            
-            
-
+            <div className='btns-container-ether'>
+                <a href="https://etherscan.io/" target="_blank" rel="noopener noreferrer">
+                    <button className='btns-ether' buttonStyle='btn--primary' buttonSize='btn--large'>
+                       LINK TO ETHERSCAN WEBSITE
+                    </button>
+                </a>
+            </div>
         </div>
         
     )

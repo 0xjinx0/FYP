@@ -22,6 +22,12 @@ function Cards() {
                         path="/edu#edu2"
                     />
                     <CardItem 
+                        src="images/etherscan.png"
+                        text="Utilise the function that Etherscan provides to track transactions!"
+                        label="What is Etherscan"
+                        path="/edu#edu3"
+                    />
+                    <CardItem 
                         src="images/thirdcard.png"
                         text="Start donating to charities that are requiring aid"
                         label="Donate now!"
