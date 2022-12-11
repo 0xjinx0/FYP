@@ -1,237 +1,326 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', sans-serif;
-  }
-  
-  .home,
-  .charities,
-  .edu,
-  .edu2,
-  .edu3 {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
 
-  .about-us {
-    background-image: url('/images/aboutus.png');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    height: 91.7vh;
-    align-items: center;
-  }
+.home,
+.edu,
+.edu2,
+.edu3 {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
 
-  .about-us > h1 {
-    color:#FFD700;
-    text-align: center;
-    font-size: 100px;
-    position: absolute;
-    top: 15%;
-    width: 100%;
-  }
+.btns {
+  padding:8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  position: absolute;
+  top: 62%;
+}
 
-  .about-us > p {
-    color:#fff;
-    text-align: center;
-    font-size: 35px;
-    position: absolute;
-    top: 19%;
-    left: 11%;
-    width: 1500px;
-    padding: 90px;
-  }
+.btns-container {
+  height: 91.7vh;
+  width: 69%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
 
-  .btns {
-    padding:8px 20px;
-    border-radius: 2px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    font-size: 30px;
-    position: absolute;
-    top: 62%;
-  }
+.btn--primary {
+    background-color: var(--primary);
+    color: #242424;
+    border: 1px solid var(--primary);
+}
 
-  .btns-container {
-    height: 91.7vh;
-    width: 69%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    object-fit: contain;
-  }
+.btn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
 
-  .btns-nft {
-    padding:8px 20px;
-    border-radius: 2px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    font-size: 30px;
-    position: absolute;
-    top: 90%;
-  }
+/*-------------------------About Us Page----------------------*/
+.about-us {
+  background-image: url('/images/aboutus.png');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  height: 91.7vh;
+  align-items: center;
+}
 
-  .btns-container-nft {
-    width: 58%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    object-fit: contain;
-  }
+.about-us > h1 {
+  color:#FFD700;
+  text-align: center;
+  font-size: 100px;
+  position: absolute;
+  top: 15%;
+  width: 100%;
+}
 
-  .btns-ether {
-    padding:8px 20px;
-    border-radius: 2px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    font-size: 30px;
-    position: absolute;
-    top: 272%;
-  }
+.about-us > p {
+  color:#fff;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  top: 19%;
+  left: 11%;
+  width: 1500px;
+  padding: 90px;
+}
 
-  .btns-container-ether {
-    width: 78%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    object-fit: contain;
-  }
 
-  .btn--primary {
-      background-color: var(--primary);
-      color: #242424;
-      border: 1px solid var(--primary);
-  }
 
-  .btn--large {
-    padding: 12px 26px;
-    font-size: 20px;
-  }
-  
-  .edu {
-    background-image: url('/images/nftdarked.jpg');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-  }
+/*------------------Education Page--------------------*/
+.edu {
+  background-image: url('/images/nftdarked.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+}
 
-  .edu > h1 {
-    color:#FFD700;
-    text-align: center;
-    font-size: 100px;
-    position: absolute;
-    top: 13%;
-    width: 100%;
-  }
+.edu > h1 {
+  color:#FFD700;
+  text-align: center;
+  font-size: 100px;
+  position: absolute;
+  top: 13%;
+  width: 100%;
+}
 
-  .edu > p {
-    color:#FFFDD0;
-    text-align: center;
-    font-size: 35px;
-    position: absolute;
-    top: 30%;
-    left: 11%;
-    width: 1500px;
-    padding: 90px;
-  }
+.edu > p {
+  color:#FFFDD0;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  top: 30%;
+  left: 11%;
+  width: 1500px;
+  padding: 90px;
+}
 
-  .edu > p2 {
-    color:#FFFDD0;
-    text-align: center;
-    font-size: 35px;
-    position: absolute;
-    top: 55%;
-    left: 11%;
-    width: 1500px;
-    padding: 90px;
-  }
+.edu > p2 {
+  color:#FFFDD0;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  top: 55%;
+  left: 11%;
+  width: 1500px;
+  padding: 90px;
+}
 
-  .edu2 {
-    background-image: url('/images/connect-wallet1darked.jpg');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-  }
+.edu2 {
+  background-image: url('/images/connect-wallet1darked.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+}
 
-  .edu2 > h1 {
-    color:#FFD700;
-    text-align: center;
-    font-size: 100px;
-    position: absolute;
-    top: 120%;
-    width: 100%;
-  }
+.edu2 > h1 {
+  color:#FFD700;
+  text-align: center;
+  font-size: 100px;
+  position: absolute;
+  top: 120%;
+  width: 100%;
+}
 
-  .edu2 > p {
-    color:#FFFDD0;
-    text-align: center;
-    font-size: 35px;
-    position: absolute;
-    top: 125%;
-    left: 11%;
-    width: 1500px;
-    padding: 90px;
-  }
+.edu2 > p {
+  color:#FFFDD0;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  top: 125%;
+  left: 11%;
+  width: 1500px;
+  padding: 90px;
+}
 
-  .edu3 {
-    background-image: url('/images/etherscandarked.png');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-  }
+.edu3 {
+  background-image: url('/images/etherscandarked.png');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+}
 
-  .edu3 > h1 {
-    color:#FFD700;
-    text-align: center;
-    font-size: 100px;
-    position: absolute;
-    top: 225%;
-    width: 100%;
-  }
+.edu3 > h1 {
+  color:#FFD700;
+  text-align: center;
+  font-size: 100px;
+  position: absolute;
+  top: 225%;
+  width: 100%;
+}
 
-  .edu3 > p {
-    color:#FFFDD0;
-    text-align: center;
-    font-size: 35px;
-    position: absolute;
-    top: 230%;
-    left: 11%;
-    width: 1500px;
-    padding: 90px;
-  }
+.edu3 > p {
+  color:#FFFDD0;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  top: 230%;
+  left: 11%;
+  width: 1500px;
+  padding: 90px;
+}
 
-  .edu3 > p2 {
-    color:#FFFDD0;
-    text-align: center;
-    font-size: 35px;
-    position: absolute;
-    top: 250%;
-    left: 11%;
-    width: 1500px;
-    padding: 90px;
-  }
+.edu3 > p2 {
+  color:#FFFDD0;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  top: 250%;
+  left: 11%;
+  width: 1500px;
+  padding: 90px;
+}
 
-  .video {
-    position: absolute;
-    top: 165%;
-  }
+.video {
+  position: absolute;
+  top: 165%;
+}
 
-  .charities {
-    background-image: url('/images/img-2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+.btns-nft {
+  padding:8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  position: absolute;
+  top: 90%;
+}
 
+.btns-container-nft {
+  width: 58%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.btns-ether {
+  padding:8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  position: absolute;
+  top: 272%;
+}
+
+.btns-container-ether {
+  width: 78%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+
+
+/*----------------------Charities Page-----------------------*/
+.charities {
+  background-image: url('/images/herobanner.png');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  font-size: 50px;
+  align-items: center;
+}
+
+.main_charity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  padding: 50px 0 0;
+  box-sizing: border-box;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main_charity > h3 {
+  position: absolute;
+  Left: 0;
+  top: 20px;
+  color: #FFD700;
+  font-size: 3.5vw;
+  text-align: center;
+}
+
+.card {
+  width: 30%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  transform: scale(.8);
+  transition: all .3s ease-in-out;
+  margin-bottom: 10vw;
+}
+
+.card_img {
+  margin-top: 4vw;
+}
+
+.card_img > img {
+  width: 200px;
+}
+
+.card_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #FFFDD0;
+}
+
+.card_header > h2 {
+  font-size: 50px;
+}
+
+.card_header > h3 {
+  font-size: 40px;
+}
+
+.card_header > p {
+  font-size: 30px;
+  text-align: center;
+  color: #FFFDD0;
+  margin: 8px 0;
+  width: 50%;
+}
+
+.btnC {
+  background-color: #FFFDD0;
+  padding:8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btnC > p {
+  color: black;
+  font-size: 40px;
+}
