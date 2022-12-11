@@ -23,7 +23,6 @@ export default function Edu() {
                     </button>
                 </a>
             </div>
-
             <div className='edu2' id='edu2'>
                 <h1>
                     Creating and Connecting your Wallet
@@ -33,6 +32,21 @@ export default function Edu() {
                     <iframe width="650" height="400" src="https://www.youtube.com/embed/U0GoMFUnZrk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
                 </div>
             </div>
+            <div className='edu3' id='edu3'>
+                <h1>
+                    What is Etherscan?
+                </h1>
+                <p>A block explorer for the Ethereum blockchain is called Etherscan. Users may quickly search for and view transactions and blocks thanks to it. Additionally, it offers details about each transaction and block, including the date and hash. Etherscan can be compared to Ethereum's equivalent of Google.</p>
+                <div className='btns-container-ether'>
+                    <a href="https://etherscan.io/" target="_blank" rel="noopener noreferrer">
+                        <button className='btns-ether' buttonStyle='btn--primary'     buttonSize='btn--large'>
+                           LINK TO ETHERSCAN WEBSITE
+                        </button>
+                    </a>
+                </div>
+            </div>
+            
+            
             
 
         </div>

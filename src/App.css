@@ -8,7 +8,8 @@
   .home,
   .charities,
   .edu,
-  .edu2 {
+  .edu2,
+  .edu3 {
     display: flex;
     height: 100vh;
     align-items: center;
@@ -44,44 +45,6 @@
     width: 1500px;
     padding: 90px;
   }
-
-  /*
-    .about-us > p2 {
-    color:#fff;
-    text-align: center;
-    font-size: 30px;
-    position: absolute;
-    top: 35%;
-    width: 100%;
-  }
-
-  .about-us > p3 {
-    color:#fff;
-    text-align: center;
-    font-size: 30px;
-    position: absolute;
-    top: 40%;
-    width: 100%;
-  }
-
-  .about-us > p4 {
-    color:#fff;
-    text-align: center;
-    font-size: 30px;
-    position: absolute;
-    top: 45%;
-    width: 100%;
-  }
-
-  .about-us > p5 {
-    color:#fff;
-    text-align: center;
-    font-size: 30px;
-    position: absolute;
-    top: 50%;
-    width: 100%;
-  }
-  */
 
   .btns {
     padding:8px 20px;
@@ -124,6 +87,26 @@
     object-fit: contain;
   }
 
+  .btns-ether {
+    padding:8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    top: 265%;
+  }
+
+  .btns-container-ether {
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+  }
+
   .btn--primary {
       background-color: var(--primary);
       color: #242424;
@@ -137,13 +120,6 @@
   
   .edu {
     background-image: url('/images/nftdarked.jpg');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-  }
-
-  .edu2 {
-    background-image: url('/images/connect-wallet1darked.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -202,6 +178,33 @@
     font-size: 35px;
     position: absolute;
     top: 125%;
+    left: 11%;
+    width: 1500px;
+    padding: 90px;
+  }
+
+  .edu3 {
+    background-image: url('/images/etherscandarked.png');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+  }
+
+  .edu3 > h1 {
+    color:#FFD700;
+    text-align: center;
+    font-size: 100px;
+    position: absolute;
+    top: 225%;
+    width: 100%;
+  }
+
+  .edu3 > p {
+    color:#FFFDD0;
+    text-align: center;
+    font-size: 35px;
+    position: absolute;
+    top: 230%;
     left: 11%;
     width: 1500px;
     padding: 90px;
